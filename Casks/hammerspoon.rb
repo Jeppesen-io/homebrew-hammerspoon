@@ -11,13 +11,13 @@ cask 'hammerspoon' do
   postflight do
 
     # Dont show in dock
-    defaults write org.hammerspoon.Hammerspoon MJShowDockIconKey -int 0
+    `defaults write org.hammerspoon.Hammerspoon MJShowDockIconKey -int 0`
 
     # show in menu
-    defaults write org.hammerspoon.Hammerspoon MJShowMenuIconKey -int 1
+    `defaults write org.hammerspoon.Hammerspoon MJShowMenuIconKey -int 1`
 
     # Dont autoupdate
-    defaults write org.hammerspoon.Hammerspoon SUEnableAutomaticChecks -int 0
+    `defaults write org.hammerspoon.Hammerspoon SUEnableAutomaticChecks -int 0`
 
   end
 
