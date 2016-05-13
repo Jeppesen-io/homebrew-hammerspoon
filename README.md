@@ -3,11 +3,11 @@
 Use the keyboard to do my window managment and aplication launches
 
 ### Move and/or resize windows
-* CTRL + CMD + Left               `Left half of screen`
-* CTRL + CMD + Right              `Right half of screen`
-* CTRL + CMD + Up                 `Top half of screen`
-* CTRL + CMD + Down               `Bottom half of screen`
-* CTRL + CMD + Space              `Switch screen/monitor`
+* CTRL + CMD + Left```      Left half of screen```
+* CTRL + CMD + Right```     Right half of screen```
+* CTRL + CMD + Up```        Top half of screen```
+* CTRL + CMD + Down```      Bottom half of screen```
+* CTRL + CMD + Space```     Switch screen/monitor```
 
 ### Launch and/or focus
 * CTRL + CMD + c                  Chrome
