@@ -1,5 +1,5 @@
 # homebrew-hammerspoon
-### Wraps the `hammerspoon` cask
+### Wraps `hammerspoon` cask
 Use the keyboard to do my window managment and aplication launches
 
 ### Move and/or resize windows
