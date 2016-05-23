@@ -14,6 +14,7 @@ bindAppToKey(true,  'g',  'Steam')
 bindAppToKey(false, 'c',  'Google Chrome')
 bindAppToKey(false, 'v',  'Google Chrome Canary')
 bindAppToKey(true,  'm',  'Spotify')
+bindAppToKey(true,  'a',  'Visual Studio Code')
 
 -- Window switcher
 require 'bindWindowToKey'
