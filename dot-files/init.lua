@@ -23,6 +23,7 @@ bindWindowToKey('h','Hangouts')
 -- Sleep display/computer
 hs.hotkey.bind(centerhyper, 'delete', function() hs.execute('pmset displaysleepnow')  end)
 hs.hotkey.bind(fullhyper,   'delete', function() hs.execute('pmset sleepnow')         end)
+hs.hotkey.bind('cmd',       'delete', function() hs.execute('sleep .3 && open -a /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app') end)
 
 -- Reload hammerspoon config
 hs.hotkey.bind(centerhyper, 'r', function() hs.reload() end)
