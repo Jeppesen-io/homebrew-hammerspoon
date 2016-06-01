@@ -1,5 +1,5 @@
 cask 'hammerspoon' do
-  version '0.4'
+  version '1.0'
   url 'https://github.com/Jeppesen-io/homebrew-hammerspoon/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-hammerspoon'
   sha256 :no_check
@@ -17,7 +17,7 @@ cask 'hammerspoon' do
     `defaults write org.hammerspoon.Hammerspoon MJShowMenuIconKey -int 1`
 
     # Dont autoupdate
-    `defaults write org.hammerspoon.Hammerspoon SUEnableAutomaticChecks -int 0`
+    `defaults write org.hammerspoon.Hammerspoon SUEnableAutomaticChecks -int 1`
 
   end
 

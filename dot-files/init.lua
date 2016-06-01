@@ -8,11 +8,11 @@ centerhyper = {"ctrl","cmd"}
 
 -- App launcher/switcher: - drop the mike and walk away
 require 'bindAppToKey'
-bindAppToKey(true,  's',  'Slack')
+bindAppToKey(false, 's',  'Slack')
 bindAppToKey(true,  'i',  'iTerm')
 bindAppToKey(true,  'g',  'Steam')
-bindAppToKey(false, 'c',  'Google Chrome')
-bindAppToKey(false, 'v',  'Google Chrome Canary')
+bindAppToKey(true,  'c',  'Google Chrome')
+bindAppToKey(true,  'v',  'Google Chrome Canary')
 bindAppToKey(true,  'm',  'Spotify')
 bindAppToKey(true,  'a',  'Visual Studio Code')
 
