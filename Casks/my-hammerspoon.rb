@@ -1,4 +1,4 @@
-cask 'hammerspoon' do
+cask 'my-hammerspoon' do
   version '1.1'
   url 'https://github.com/Jeppesen-io/homebrew-hammerspoon/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-hammerspoon'
