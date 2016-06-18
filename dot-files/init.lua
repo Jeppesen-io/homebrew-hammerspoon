@@ -13,12 +13,9 @@ bindAppToKey(false, 'i', 'iTerm')
 bindAppToKey(false, 'g', 'Steam')
 bindAppToKey(false, 'c', 'Google Chrome')
 bindAppToKey(false, 'v', 'Google Chrome Canary')
+bindAppToKey(false, 'h', 'yakyak')
 bindAppToKey(false, 'm', 'Spotify')
 bindAppToKey(false, 'a', 'Visual Studio Code')
-
--- Window switcher
-require 'bindWindowToKey'
-bindWindowToKey('h','Hangouts')
 
 -- Sleep display/computer
 hs.hotkey.bind(centerhyper, 'delete', function() hs.execute('pmset displaysleepnow')  end)
