@@ -13,12 +13,12 @@ require 'bindAppToKey'
 bindAppToKey(false, 'c', 'Google Chrome')
 bindAppToKey(false, 'v', 'Google Chrome Canary')
 bindAppToKey(false, 'x', 'Firefox')
-bindAppToKey(false, 'i', 'Safari')
+bindAppToKey(false, 'p', 'Safari')
 
 -- Chat
 bindAppToKey(false, 's', 'Slack')   -- s for slack
 bindAppToKey(false, 'h', 'yakyak')  -- h for hangouts
-bindAppToKey(false, 'f', 'goofy ')  -- f for faceboot
+bindAppToKey(false, 'f', 'Goofy')  -- f for faceboot
 
 -- Other apps
 bindAppToKey(false, 'i', 'iTerm')
