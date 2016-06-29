@@ -8,12 +8,21 @@ centerhyper = {"ctrl","cmd"}
 
 -- App launcher/switcher: - drop the mike and walk away
 require 'bindAppToKey'
-bindAppToKey(false, 's', 'Slack')
-bindAppToKey(false, 'i', 'iTerm')
-bindAppToKey(false, 'g', 'Steam')
+
+-- Browsers
 bindAppToKey(false, 'c', 'Google Chrome')
 bindAppToKey(false, 'v', 'Google Chrome Canary')
-bindAppToKey(false, 'h', 'yakyak')
+bindAppToKey(false, 'x', 'Firefox')
+bindAppToKey(false, 'i', 'Safari')
+
+-- Chat
+bindAppToKey(false, 's', 'Slack')   -- s for slack
+bindAppToKey(false, 'h', 'yakyak')  -- h for hangouts
+bindAppToKey(false, 'f', 'goofy ')  -- f for faceboot
+
+-- Other apps
+bindAppToKey(false, 'i', 'iTerm')
+bindAppToKey(false, 'g', 'Steam')
 bindAppToKey(false, 'm', 'Spotify')
 bindAppToKey(false, 'a', 'Visual Studio Code')
 
