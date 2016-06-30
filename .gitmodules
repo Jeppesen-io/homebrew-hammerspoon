@@ -1,0 +1,3 @@
+[submodule "dot-files/.hammerspoon"]
+	path = dot-files/.hammerspoon
+	url = https://github.com/victorso/.hammerspoon
