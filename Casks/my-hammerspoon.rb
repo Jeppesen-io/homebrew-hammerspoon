@@ -1,15 +1,12 @@
 cask 'my-hammerspoon' do
 
-  preflight do
-    `rm -rf ~/.hammerspoon || true`
-  end
-
-  version '1.8'
+  version '1.9'
   url 'https://github.com/Jeppesen-io/homebrew-hammerspoon/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-hammerspoon'
   sha256 :no_check
 
-  artifact 'homebrew-hammerspoon-master/dot-files', target: "#{ENV['HOME']}/.hammerspoon"
+  artifact 'homebrew-hammerspoon-master/dot-files/init.lua',  target: "#{ENV['HOME']}/.hammerspoon/init.lua"
+  artifact 'homebrew-hammerspoon-master/dot-files/plugins',   target: "#{ENV['HOME']}/.hammerspoon/plugins/"
 
   depends_on cask: 'hammerspoon'
 
