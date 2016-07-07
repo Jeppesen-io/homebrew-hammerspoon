@@ -1,5 +1,11 @@
 cask 'my-hammerspoon' do
-  version '1.5'
+
+  preflight do
+    `rm -rf ~/.hammerspoon || true`
+  end
+
+
+  version '1.6'
   url 'https://github.com/Jeppesen-io/homebrew-hammerspoon/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-hammerspoon'
   sha256 :no_check
