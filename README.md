@@ -1,23 +1,37 @@
 # homebrew-hammerspoon
-### Wraps `hammerspoon` cask
-Use the keyboard to do my window managment and aplication launches
+### Installs and configures hammerspoon
 
-### Move and/or resize windows
-    CTRL + CMD + Left        Left half of screen
-    CTRL + CMD + Right       Right half of screen
-    CTRL + CMD + Up          Top half of screen
-    CTRL + CMD + Down        Bottom half of screen
-    CTRL + CMD + Space       Switch screen/monitor
+#### Clipboard history
+Using the `clipboard` code from [victorso/.hammerspoon](../../../../.hammerspoon/tools/clipboard.lua/)` a menubar menu is added that keeps my clipboard history handy!
 
-### Launch and/or focus
-    CTRL + CMD + c           Chrome
-    CTRL + CMD + v           Chrome Canry
-    CTRL + CMD + m           Spotify
-    CTRL + CMD + i           iTerm
-    CTRL + CMD + h           Hangouts
-    CTRL + CMD + s           Slack
-    CTRL + CMD + g           Steam
+#### Window movment
+|Key combo|Action|
+|---|---|
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Left</kbd>                                         |Left half of screen|
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Right</kbd>                                        |Right half of screen
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Up</kbd>                                           |Top half of screen
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Down</kbd>                                         |Bottom half of screen
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Space</kbd>                                        |Switch screen/monitor
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>option</kbd> + <kbd>left/right/up/down/space</kbd> |Left half of screen|
 
-### Misc
-    CTRL + CMD + delete            Turn off display (and lock)
-    CTRL + CMD + option + delete   Put computer to sleep
+#### Applications
+|Key combo|Action|
+|---|---|
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>c</kbd>                                |Chrome
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>v</kbd>                                |Chrome Canry
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>f</kbd>                                |Facebook Messenger (`Goofy`)
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>x</kbd>                                |Firefox
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>h</kbd>                                |Hangouts (`Yakyak`)
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>i</kbd>                                |iTerm
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>p</kbd>                                |Safari
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>m</kbd>                                |Spotify
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>s</kbd>                                |Slack
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>g</kbd>                                |Steam
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>a</kbd>                                |Visual Studio Code
+
+#### System
+|Key combo|Action|
+|---|---|
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd>                           |Turn off display (and lock)
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd> + <kbd>option</kbd>       |Put computer to sleep
+|<kbd>⌘</kbd> + <kbd>delete</kbd>                                             |Screensaver
