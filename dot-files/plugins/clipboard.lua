@@ -10,11 +10,11 @@ The clipboard persists across launches.
 ]]--
 
 -- Feel free to change those settings
-local frequency = 0.8 -- Speed in seconds to check for clipboard changes. If you check too frequently, you will loose performance, if you check sparsely you will loose copies
-local hist_size = 20 -- How many items to keep on history
-local label_length = 40 -- How wide (in characters) the dropdown menu should be. Copies larger than this will have their label truncated and end with "…" (unicode for elipsis ...)
+local frequency = 1 -- Speed in seconds to check for clipboard changes. If you check too frequently, you will loose performance, if you check sparsely you will loose copies
+local hist_size = 40 -- How many items to keep on history
+local label_length = 60 -- How wide (in characters) the dropdown menu should be. Copies larger than this will have their label truncated and end with "…" (unicode for elipsis ...)
 local honor_clearcontent = false --asmagill request. If any application clears the pasteboard, we also remove it from the history https://groups.google.com/d/msg/hammerspoon/skEeypZHOmM/Tg8QnEj_N68J
-local pasteOnSelect = false -- Auto-type on click
+local pasteOnSelect = true -- Auto-type on click
 
 -- Don't change anything bellow this line
 local jumpcut = hs.menubar.new()

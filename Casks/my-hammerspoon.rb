@@ -4,7 +4,7 @@ cask 'my-hammerspoon' do
     `rm -rf ~/.hammerspoon || true`
   end
 
-  version '1.7'
+  version '1.8'
   url 'https://github.com/Jeppesen-io/homebrew-hammerspoon/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-hammerspoon'
   sha256 :no_check
