@@ -5,8 +5,8 @@ cask 'my-hammerspoon' do
   homepage 'https://github.com/Jeppesen-io/homebrew-hammerspoon'
   sha256 :no_check
 
-  artifact 'homebrew-hammerspoon-master/dot-files/init.lua',  target: "#{ENV['HOME']}/.hammerspoon/init.lua"
-  artifact 'homebrew-hammerspoon-master/dot-files/plugins',   target: "#{ENV['HOME']}/.hammerspoon/plugins/"
+  artifact 'homebrew-hammerspoon-master/dot-files/init.lua',  target: "#{ENV['HOME']}/.hammerspoon/init.lua", force:True
+  artifact 'homebrew-hammerspoon-master/dot-files/plugins',   target: "#{ENV['HOME']}/.hammerspoon/plugins/", force:True
 
   depends_on cask: 'hammerspoon'
 
