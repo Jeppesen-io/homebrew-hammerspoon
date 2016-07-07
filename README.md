@@ -2,7 +2,14 @@
 ### Installs and configures hammerspoon
 
 #### Clipboard history
-Using the `clipboard` code from [victorso/.hammerspoon](../../../../.hammerspoon/tools/clipboard.lua/)` a menubar menu is added that keeps my clipboard history handy!
+Using the `clipboard` code from [victorso/.hammerspoon](../../../../victorso/.hammerspoon/blob/master/tools/clipboard.lua)` a menubar menu is added that keeps my clipboard history handy!
+
+#### System
+|Key combo|Action|
+|---|---|
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd>                           |Turn off display (and lock)
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd> + <kbd>option</kbd>       |Put computer to sleep
+|<kbd>⌘</kbd> + <kbd>delete</kbd>                                             |Screensaver
 
 #### Window movment
 |Key combo|Action|
@@ -12,13 +19,13 @@ Using the `clipboard` code from [victorso/.hammerspoon](../../../../.hammerspoon
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Up</kbd>                                           |Top half of screen
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Down</kbd>                                         |Bottom half of screen
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Space</kbd>                                        |Switch screen/monitor
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>option</kbd> + <kbd>left/right/up/down/space</kbd> |Left half of screen|
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>option</kbd> + <kbd>left/right/up/down/space</kbd> |Full size|
 
 #### Applications
 |Key combo|Action|
 |---|---|
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>c</kbd>                                |Chrome
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>v</kbd>                                |Chrome Canry
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>v</kbd>                                |Chrome Canary
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>f</kbd>                                |Facebook Messenger (`Goofy`)
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>x</kbd>                                |Firefox
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>h</kbd>                                |Hangouts (`Yakyak`)
@@ -28,10 +35,3 @@ Using the `clipboard` code from [victorso/.hammerspoon](../../../../.hammerspoon
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>s</kbd>                                |Slack
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>g</kbd>                                |Steam
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>a</kbd>                                |Visual Studio Code
-
-#### System
-|Key combo|Action|
-|---|---|
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd>                           |Turn off display (and lock)
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd> + <kbd>option</kbd>       |Put computer to sleep
-|<kbd>⌘</kbd> + <kbd>delete</kbd>                                             |Screensaver
