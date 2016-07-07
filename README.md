@@ -2,7 +2,9 @@
 ### Installs and configures hammerspoon
 
 #### Clipboard history
-Using the `clipboard` code from [victorso/.hammerspoon](../../../../victorso/.hammerspoon/blob/master/tools/clipboard.lua)` a menubar menu is added that keeps my clipboard history handy!
+Using the `clipboard` code from [victorso/.hammerspoon](../../../../victorso/.hammerspoon/blob/master/tools/clipboard.lua) a menubar menu is added that keeps my clipboard history handy!
+
+![Clipboard History](https://raw.githubusercontent.com/Jeppesen-io/homebrew-hammerspoon/master/images/clipboard.png)
 
 #### System
 |Key combo|Action|
