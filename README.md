@@ -12,16 +12,17 @@ Using the `clipboard` code from [victorso/.hammerspoon](../../../../victorso/.ha
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd>                           |Turn off display (and lock)
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd> + <kbd>option</kbd>       |Put computer to sleep
 |<kbd>⌘</kbd> + <kbd>delete</kbd>                                             |Screensaver
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>r</kbd>                                |Reload hammerspoon config
 
 #### Window movment
 |Key combo|Action|
 |---|---|
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Left</kbd>                                         |Left half of screen|
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Left</kbd>                                         |Left half of screen
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Right</kbd>                                        |Right half of screen
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Up</kbd>                                           |Top half of screen
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Down</kbd>                                         |Bottom half of screen
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Space</kbd>                                        |Switch screen/monitor
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>option</kbd> + <kbd>left/right/up/down/space</kbd> |Full size|
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>option</kbd> + <kbd>left/right/up/down/space</kbd> |Full size
 
 #### Applications
 |Key combo|Action|
