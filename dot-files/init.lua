@@ -43,18 +43,8 @@ hs.hotkey.bind(centerhyper, "Right",  moveWindowPercentOfScreen(0.5,  0.0,  1.0,
 hs.hotkey.bind(centerhyper, "Up",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  0.5))
 hs.hotkey.bind(centerhyper, "Down",   moveWindowPercentOfScreen(0.0,  0.5,  1.0,  1.0))
 
---- fullhyper + any direction maximize the window
-hs.hotkey.bind(fullhyper,   "Left",   moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
-hs.hotkey.bind(fullhyper,   "Right",  moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
-hs.hotkey.bind(fullhyper,   "Down",   moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
+---- move monitors, maximize and minimize
+hs.hotkey.bind(fullhyper,   "Left",   moveMonitor() )
+hs.hotkey.bind(fullhyper,   "Right",  moveMonitor() )
+hs.hotkey.bind(fullhyper,   "Down",   function()  hs.window.focusedWindow():minimize() end )
 hs.hotkey.bind(fullhyper,   "Up",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
-hs.hotkey.bind(fullhyper,   "Space",  moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
-
---- Move window back of stack (does not work perfrectly)
-hs.hotkey.bind(centerhyper, "Return", function()
-  local win = hs.window.focusedWindow()
-  win:sendToBack()
-end)
-
---- Bind moveScreen to hotkey
-hs.hotkey.bind(centerhyper, "space", moveMonitor())
