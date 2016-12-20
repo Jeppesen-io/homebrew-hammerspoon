@@ -38,13 +38,13 @@ hs.hotkey.bind('cmd',       'delete', function() hs.execute('sleep .3 && open -a
 hs.hotkey.bind(centerhyper, 'r', function() hs.reload() end)
 
 --- Move window to left/right/top or bottom half of the screen
-hs.hotkey.bind(centerhyper, "Left",   moveWindowPercentOfScreen(0.0,  0.0,  0.5,  1.0))
-hs.hotkey.bind(centerhyper, "Right",  moveWindowPercentOfScreen(0.5,  0.0,  1.0,  1.0))
-hs.hotkey.bind(centerhyper, "Up",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  0.5))
-hs.hotkey.bind(centerhyper, "Down",   moveWindowPercentOfScreen(0.0,  0.5,  1.0,  1.0))
+hs.hotkey.bind(centerhyper, "Left",   moveWindowPercentOfScreen(0.0,  0.0,  0.7,  1.0))
+hs.hotkey.bind(centerhyper, "Right",  moveWindowPercentOfScreen(0.7,  0.0,  1.0,  1.0))
+hs.hotkey.bind(centerhyper, "Up",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  0.7))
+hs.hotkey.bind(centerhyper, "Down",   moveWindowPercentOfScreen(0.0,  0.7,  1.0,  1.0))
 
 ---- move monitors, maximize and minimize
 hs.hotkey.bind(fullhyper,   "Left",   moveMonitor() )
 hs.hotkey.bind(fullhyper,   "Right",  moveMonitor() )
-hs.hotkey.bind(fullhyper,   "Down",   function()  hs.window.focusedWindow():minimize() end )
+-- hs.hotkey.bind(fullhyper,   "Down",   function()  hs.window.focusedWindow():minimize() end )
 hs.hotkey.bind(fullhyper,   "Up",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
