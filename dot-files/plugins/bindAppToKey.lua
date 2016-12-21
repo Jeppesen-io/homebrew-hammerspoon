@@ -10,5 +10,5 @@ function bindAppToKey(useHomeAppPath,key,app)
     appPath=app
   end
 
-  hs.hotkey.bind(centerhyper, key, function() hs.application.launchOrFocus(appPath) end)
+  hs.hotkey.bind(metaKey, key, function() hs.application.launchOrFocus(appPath) end)
 end
