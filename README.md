@@ -6,7 +6,7 @@
 |---|---|
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd>                           |Turn off display (and lock)
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>r</kbd>                                |Reload hammerspoon config
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>i</kbd>                                |Switch to window by hints
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>o</kbd>                                |Switch to window by hints
 
 
 #### Window movment

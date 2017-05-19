@@ -44,6 +44,6 @@ hs.hotkey.bind(metaKey,   "f",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1
 
 
 ---- Switch to window via hints
-hs.hotkey.bind(metaKey, "i", function()
+hs.hotkey.bind(metaKey, "o", function()
     hs.hints.windowHints()
 end)
