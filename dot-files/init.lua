@@ -39,5 +39,11 @@ hs.hotkey.bind(metaKey, "Down",   moveWindowPercentOfScreen(0.0,  0.65,  1.0,  1
 hs.hotkey.bind(metaKey,   "Left",   moveMonitor() )
 hs.hotkey.bind(metaKey,   "Right",  moveMonitor() )
 
----- use while screen
+---- resize window to fill screen
 hs.hotkey.bind(metaKey,   "f",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
+
+
+---- Switch to window via hints
+hs.hotkey.bind(metaKey, "h", function()
+    hs.hints.windowHints()
+end)
