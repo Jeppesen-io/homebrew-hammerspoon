@@ -10,17 +10,13 @@ hs.window.animationDuration = 0
 -- Set base key combo
 metaKey = {"ctrl","cmd"}
 
--- Browsers
+-- Lauch or focus app by key
 bindAppToKey(false, 'c', 'Google Chrome')
 bindAppToKey(false, 'v', 'Google Chrome Canary')
 bindAppToKey(false, 'x', 'Firefox')
 bindAppToKey(false, 'p', 'Safari')
-
--- Chat
 bindAppToKey(false, 's', 'Slack')
 bindAppToKey(false, 'g', 'Goofy')
-
--- Other apps
 bindAppToKey(false, 'i', 'iTerm')
 bindAppToKey(false, 'm', 'Spotify')
 bindAppToKey(false, 'a', 'Visual Studio Code')
@@ -35,15 +31,15 @@ hs.hotkey.bind(metaKey, 'r', function() hs.reload() end)
 hs.hotkey.bind(metaKey, "Up",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  0.65))
 hs.hotkey.bind(metaKey, "Down",   moveWindowPercentOfScreen(0.0,  0.65,  1.0,  1.0))
 
----- move monitors
+---- Move monitors
 hs.hotkey.bind(metaKey,   "Left",   moveMonitor() )
 hs.hotkey.bind(metaKey,   "Right",  moveMonitor() )
 
----- resize window to fill screen
+---- Resize window to fill screen
 hs.hotkey.bind(metaKey,   "f",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
 
 
----- Switch to window via hints
+---- Switch to window using hints
 hs.hotkey.bind(metaKey, "o", function()
-    hs.hints.windowHints()
+  hs.hints.windowHints()
 end)
