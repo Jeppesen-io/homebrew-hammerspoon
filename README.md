@@ -16,8 +16,6 @@
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Right</kbd>                                        |Switch monitor
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Up</kbd>                                           |Top half of screen
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Down</kbd>                                         |Bottom half of screen
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>Space</kbd>                                        |Switch screen/monitor
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>option</kbd> + <kbd>left/right/up/down/space</kbd> |Full size
 
 #### Applications
 |Key combo|Action|
