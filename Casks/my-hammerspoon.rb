@@ -1,6 +1,6 @@
 cask 'my-hammerspoon' do
 
-  version '1.4.1'
+  version '1.4.2'
   url 'https://github.com/Jeppesen-io/homebrew-hammerspoon/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-hammerspoon'
   sha256 :no_check
