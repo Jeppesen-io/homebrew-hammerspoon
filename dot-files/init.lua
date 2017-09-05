@@ -28,18 +28,9 @@ hs.hotkey.bind(metaKey, 'delete', function() hs.execute('pmset displaysleepnow')
 hs.hotkey.bind(metaKey, 'r', function() hs.reload() end)
 
 --- Move window to left/right/top or bottom half of the screen
-hs.hotkey.bind(metaKey, "Up",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  0.65))
-hs.hotkey.bind(metaKey, "Down",   moveWindowPercentOfScreen(0.0,  0.65,  1.0,  1.0))
+hs.hotkey.bind(metaKey, "Up",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
+hs.hotkey.bind(metaKey, "Down",   moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
 
 ---- Move monitors
-hs.hotkey.bind(metaKey,   "Left",   moveMonitor() )
-hs.hotkey.bind(metaKey,   "Right",  moveMonitor() )
-
----- Resize window to fill screen
-hs.hotkey.bind(metaKey,   "f",     moveWindowPercentOfScreen(0.0,  0.0,  1.0,  1.0))
-
-
----- Switch to window using hints
-hs.hotkey.bind(metaKey, "o", function()
-  hs.hints.windowHints()
-end)
+hs.hotkey.bind(metaKey, "Left",   moveWindowPercentOfScreen(0.0,  0.0,  0.6,  1.0))
+hs.hotkey.bind(metaKey, "Right",  moveWindowPercentOfScreen(0.6,  0.0,  1.0,  1.0))
