@@ -4,7 +4,7 @@
 #### System
 |Key combo|Action|
 |---|---|
-|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>delete</kbd>                           |Turn off display (and lock)
+|<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>l</kbd>                           |Turn off display (and lock)
 |<kbd>ctrl</kbd> + <kbd>⌘</kbd> + <kbd>r</kbd>                                |Reload hammerspoon config
 
 
