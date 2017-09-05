@@ -13,10 +13,8 @@ metaKey = {"ctrl","cmd"}
 -- Lauch or focus app by key
 bindAppToKey(false, 'c', 'Google Chrome')
 bindAppToKey(false, 'v', 'Google Chrome Canary')
-bindAppToKey(false, 'x', 'Firefox')
 bindAppToKey(false, 'p', 'Safari')
-bindAppToKey(false, 's', 'Slack')
-bindAppToKey(false, 'g', 'Goofy')
+bindAppToKey(false, 's', 'Rambox')
 bindAppToKey(false, 'i', 'iTerm')
 bindAppToKey(false, 'm', 'Spotify')
 bindAppToKey(false, 'a', 'Visual Studio Code')
