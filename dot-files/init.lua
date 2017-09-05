@@ -21,7 +21,7 @@ bindAppToKey(false, 'm', 'Spotify')
 bindAppToKey(false, 'a', 'Visual Studio Code')
 
 -- Sleep display/computer
-hs.hotkey.bind(metaKey, 'delete', function() hs.execute('pmset displaysleepnow')  end)
+hs.hotkey.bind(metaKey, 'l', function() hs.execute('pmset displaysleepnow')  end)
 
 -- Reload hammerspoon config
 hs.hotkey.bind(metaKey, 'r', function() hs.reload() end)
