@@ -19,6 +19,7 @@ bindAppToKey(false, 's', 'Rambox')
 bindAppToKey(false, 'd', 'iTerm')
 bindAppToKey(false, 'm', 'Spotify')
 bindAppToKey(false, 'a', 'Visual Studio Code')
+bindAppToKey(false, 'x', 'DOSBoxSVN')
 
 -- Sleep display/computer
 hs.hotkey.bind(metaKey, 'l', function() hs.execute('pmset displaysleepnow')  end)
