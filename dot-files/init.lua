@@ -12,14 +12,12 @@ metaKey      = {'ctrl','cmd'}
 superMetaKey = {'ctrl','cmd','option'}
 
 -- Lauch or focus app by key
-bindAppToKey(false, 'c', 'Google Chrome')
-bindAppToKey(false, 'v', 'Google Chrome Canary')
-bindAppToKey(false, 'p', 'Safari')
-bindAppToKey(false, 's', 'Rambox')
-bindAppToKey(false, 'd', 'iTerm')
-bindAppToKey(false, 'm', 'Spotify')
-bindAppToKey(false, 'a', 'Visual Studio Code')
-bindAppToKey(false, 'x', 'DOSBoxSVN')
+bindAppToKey('c', 'com.google.Chrome')
+bindAppToKey('v', 'com.google.Chrome.canary')
+bindAppToKey('p', 'com.apple.Safari')
+bindAppToKey('s', 'com.saenzramiro.rambox')
+bindAppToKey('d', 'com.googlecode.iterm2')
+bindAppToKey('m', 'com.spotify.client')
 
 -- Sleep display/computer
 hs.hotkey.bind(metaKey, 'l', function() hs.execute('pmset displaysleepnow')  end)

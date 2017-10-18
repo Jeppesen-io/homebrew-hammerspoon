@@ -1,14 +1,4 @@
 -- Get home directory (is there a better way?)
-homeDir=hs.execute('echo $HOME | tr -d \'\\n\'')
-
-function bindAppToKey(useHomeAppPath,key,app)
-  local appPath
-
-  if useHomeAppPath==true then
-    appPath=homeDir .. '/Applications/' .. app .. '.app'
-  else
-    appPath=app
-  end
-
-  hs.hotkey.bind(metaKey, key, function() hs.application.launchOrFocus(appPath) end)
+function bindAppToKey(key,app)
+  hs.hotkey.bind(metaKey, key, function() hs.application.launchOrFocusByBundleID(app) end)
 end
